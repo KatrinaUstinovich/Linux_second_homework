@@ -1,0 +1,18 @@
+   0 cd ..
+   1 pwd
+   2 mkdir -p /home/user/start /opt/task
+   3 cd home/user/start
+   4 touch 1.txt
+   5 echo "start" > 1.txt
+   6 cat 1.txt
+   7 date >> 1.txt
+   8 ls -l
+   9 cd ..
+  10 cd /
+  11 touch opt/task/start.txt
+  12 cp /home/user/start/1.txt /opt/task/start.txt
+  13 ls -a
+  14 ls -a | tail -4
+  15 ls -a | tail -4 >> start.txt
+  16 cat start.txt
+  17 history > homework_two_linux.txt
